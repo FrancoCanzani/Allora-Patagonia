@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+    padding: 10px 16px;
+    background-color: whitesmoke;
+    color: black solid;
+    position: relative;
+    height: 17vh;
+    border-bottom-left-radius: 90% 5%;
+    border-bottom-right-radius: 90% 5%;
+}
+
+.title {
+    font-family: 'Fasthand', cursive;
+}
+
+div.allora, .patagonia {
+    margin: 10px;
+    display: flex;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+div.pic {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+div.text {
+    text-align: center;
+    align-self: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.thumbnail { 
+    display:block; 
+} 
+
+div.map {
+    background-color: whitesmoke;
+    color: black solid;
+    position: relative;
+    height: 100vh;
+    border-top-left-radius: 90% 5%;
+    border-top-right-radius: 90% 5%;
+    display: block;
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+
+}
+
+.where {
+    padding: 10px 25px;
+}
+
+.location {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
