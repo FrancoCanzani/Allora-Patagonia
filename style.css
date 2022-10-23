@@ -15,11 +15,30 @@ header {
     height: 17vh;
     border-bottom-left-radius: 90% 5%;
     border-bottom-right-radius: 90% 5%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .title {
     font-family: 'Fasthand', cursive;
 }
+
+.brand {
+    font-family: 'Fasthand', cursive;
+    flex: 0 1 auto;
+    position: absolute;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lang {
+    flex: 0 1 auto;
+    margin-left: auto;
+    font-family: 'Kanit', sans-serif;
+    padding: 15px;
+    }
+
 
 div.allora, .patagonia {
     margin: 10px;
@@ -29,15 +48,11 @@ div.allora, .patagonia {
 }
 
 div.pic {
-    margin: 10px;
+    margin: 15px;
+    height: 220px;
+    width: 687px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-    
-}
-
-div.text {
-    text-align: center;
-    align-self: center;
 }
 
 img {
@@ -46,6 +61,14 @@ img {
     object-fit: cover;
     border-radius: 5px;
 }
+
+div.text {
+    text-align: center;
+    align-self: center;
+    margin-left: 15px;
+}
+
+
 
 .thumbnail { 
     display:block; 
@@ -83,10 +106,25 @@ div.map {
 
 p {
     font-family: 'Kanit', sans-serif;
-
 }
 
 .location {
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+a.en:hover {
+    color: rgb(206, 17, 36);
+}
+
+a.fr:hover {
+    color: #0072bb;
+}
+
+a.de:hover {
+    color: black;
 }
